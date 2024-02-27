@@ -22,4 +22,3 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/comparison', [App\Http\Controllers\Comparison::class, 'index'])->middleware('auth')->name('comparison');
-// //{product_1}/{product_2}/{product_3?}/{product_4?}
