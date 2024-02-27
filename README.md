@@ -1,11 +1,19 @@
 # ProcookTest
 
+## Time 45 minuets 
+
 ## Description
 
 Create a user-friendly feature for our website that allows users to compare different frying pans
 based on various criteria, attached are ten products with key bits of information, helping customers
 make an informed purchasing decision.
 
+## Pomponent
+- PHP
+- MariaDB
+- Laravel
+- Laravel-Livewire
+- Livewire-Powergrid
 
 ## Installation
 
