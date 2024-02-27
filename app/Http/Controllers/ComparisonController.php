@@ -7,7 +7,7 @@ use Illuminate\Validation\ValidationException;
 use App\Http\Requests\ComparisonProductRequest;
 use App\Models\Product;
 
-class Comparison extends Controller
+class ComparisonController extends Controller
 {
     public function index(ComparisonProductRequest $request) //ComparisonProductRequest $request
     {

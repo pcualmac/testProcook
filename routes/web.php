@@ -21,4 +21,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/comparison', [App\Http\Controllers\Comparison::class, 'index'])->middleware('auth')->name('comparison');
+Route::get('/comparison', [App\Http\Controllers\ComparisonController::class, 'index'])->middleware('auth')->name('comparison');
