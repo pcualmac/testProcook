@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="card-columns">
-        <div class="card" style="width: 18rem;">
+        <div class="card border-0 bg-transparent" style="width: 18rem;">
             <div class="card-body">
             </div>
             <ul class="list-group list-group-flush">
