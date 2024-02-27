@@ -26,7 +26,17 @@ npm run build
 ```
 ## Run
 
+#.env If dump-fryingpan-202402271520.sql is used to create a new datatbase 
 ```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3336
+DB_DATABASE=fryingpan
+DB_USERNAME=***********
+DB_PASSWORD=***********
+```
+```
+# Use dump-fryingpan-202402271520.sql to create a new database  
 php artisan storage:link     
 php artisan migrate 
 php artisan db:seed
