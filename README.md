@@ -48,3 +48,23 @@ php artisan serve
 from request 
     2. Comparison Criteria: 
    - Customers can compare frying pans based on various criteria such as price, size, material, hand wash.
+
+# Planing to implement.
+app\Http\Controllers\Comparison.php will enclude a criterial list{price, size, material, hand wash} to be used in resources\views\comparison.blade.php
+exampl 
+if {price, size}
+```
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">{{$card->colour}}</li>
+    <li class="list-group-item">{{$card->guarantee_period}}</li>
+</ul>
+
+```
+will be replece with 
+
+```
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">{{$card->price}}</li>
+    <li class="list-group-item">{{$card->size}}</li>
+</ul>
+
