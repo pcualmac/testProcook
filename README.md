@@ -33,3 +33,8 @@ php artisan db:seed
 npm run dev
 php artisan serve  
 ```
+
+## Missing
+from request 
+    2. Comparison Criteria: 
+   - Customers can compare frying pans based on various criteria such as price, size, material, hand wash.
