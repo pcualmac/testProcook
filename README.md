@@ -8,7 +8,7 @@ Create a user-friendly feature for our website that allows users to compare diff
 based on various criteria, attached are ten products with key bits of information, helping customers
 make an informed purchasing decision.
 
-## Pomponent
+## Component
 - PHP
 - MariaDB
 - Laravel
