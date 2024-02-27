@@ -26,7 +26,7 @@ npm run build
 ```
 ## Run
 
-#.env If dump-fryingpan-202402271520.sql is used to create a new datatbase 
+# .env If dump-fryingpan-202402271520.sql is used to create a new datatbase 
 ```
 DB_CONNECTION=mysql
 DB_HOST=localhost
