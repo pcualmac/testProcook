@@ -50,7 +50,7 @@ from request
    - Customers can compare frying pans based on various criteria such as price, size, material, hand wash.
 
 # Planing to implement.
-app\Http\Controllers\Comparison.php will enclude a criterial list{price, size, material, hand wash} to be used in resources\views\comparison.blade.php
+app\Http\Controllers\ComparisonController.php will enclude a criterial list{price, size, material, hand wash} to be used in resources\views\comparison.blade.php
 exampl 
 if {price, size}
 ```
